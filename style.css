@@ -101,7 +101,7 @@ button:disabled {
 #idCardPreview p{
     margin: 5px 0;
     font-size: 16px;
-    color: #333;
+    color: rgb(244, 241, 238);
     font-size: 25px;
     font-weight: bold;
     font-family: 'Arial', sans-serif;
@@ -142,11 +142,12 @@ button:disabled {
 @media (max-width: 1119px) {
     #idCardForm {
         width: auto;
-        margin-right: 0;
     }
     #idCardPreview .card {
-        width: 100%;
+        width: auto;
+        margin: 10px;
     }
+
     .img-container {
         width: 120px;
         height: 120px;
@@ -154,6 +155,13 @@ button:disabled {
     .profile-pic {
         width: 80px;
         height: 80px;
+        /* border-radius: 10px; */
+    }
+    #idCardPreview .card-header p {
+        font-size: 20px;
+    }
+    #idCardPreview p {
+        font-size: 20px;
     }
     .container{
         flex-direction: column;
